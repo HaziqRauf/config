@@ -28,6 +28,9 @@ Plug 'mbbill/undotree'
 Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
 Plug 'posva/vim-vue'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
 
