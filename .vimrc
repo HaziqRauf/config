@@ -43,3 +43,6 @@ let g:vimwiki_list = [{'path': '~/vimwiki/',
 let g:vimwiki_markdown_link_ext = 1
 
 let g:vue_pre_processors = 'detect_on_enter'
+
+let g:python_highlight_all = 1
+
