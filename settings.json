@@ -1,0 +1,58 @@
+{
+  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.sideBar.location": "right",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "f", "r"],
+      "commands": ["find-it-faster.findWithinFiles"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditor"],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "t"],
+      "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "p", "t"],
+      "commands": ["editor.action.peekTypeDefinition"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+  ]
+}
