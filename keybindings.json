@@ -35,7 +35,7 @@
     "command": "filesExplorer.paste",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
   },
-  {
+/*   {
       "key": "shift+[",
       "command": "workbench.action.moveEditorLeftInGroup",
       "when": "editorTextFocus && !editorReadonly"
@@ -44,19 +44,19 @@
       "key": "shift+]",
       "command": "workbench.action.moveEditorRightInGroup",
       "when": "editorTextFocus && !editorReadonly"
-  },
+  }, */
   {
-        "key": "space /",
+        "key": "alt+/",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly && !editorHasSelection"
     },
     {
-        "key": "space /",
+        "key": "alt+/",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly && editorHasSelection"
     },
     {
-        "key": "space /",
+        "key": "alt+/",
         "command": "editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly && editorHasSelection"
     }

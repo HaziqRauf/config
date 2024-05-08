@@ -54,5 +54,6 @@
       "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
     },
-  ]
+  ],
+  "explorer.confirmDelete": false
 }
